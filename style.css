@@ -28,7 +28,7 @@ a{
 	background-size: cover;
 	background-position: top center;
 	position: relative;
-	z-index: 1;
+	z-index: 0;
 }
 #my::after {
 	content: '';
@@ -63,12 +63,14 @@ a{
 							/*--*/
 #my h1{
 	display: block;
+
 	width: fit-content;
 	font-size: 4rem;
 	position: relative;
 	color: transparent;
 	animation: text_reveal .5s ease forwards;
 	animation-delay: 1.5s;
+
 }
 #my h1 span {
 	position: absolute;
@@ -84,11 +86,11 @@ a{
 #my .cta{
 	display: inline-block;
 	padding: 10px 30px;
-	color: white;
+	color: crimson;
 	background-color: transparent;
 	border: 2px solid crimson;
 	text-transform: uppercase;
-	letter-spacing: .1rem;
+	letter-spacing: .2rem;
 	margin-top: 30px;
 	transition: .7s erase background-color;
 	transition-property: background-color, color;
@@ -99,7 +101,7 @@ a{
 }
 
 #my .my{
-	max-width: 1200px;
+	max-width: 1100px;
 	margin: 0 auto;
 	padding: 0 50px;
 	justify-content: flex-start;
