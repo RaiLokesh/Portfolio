@@ -8,36 +8,94 @@ html{
 	font-size: 10px;
 	font-family: 'Cabin', sans-serif;
 	letter-spacing: .5rem;
+}body{
+	background-color:#f6f5f5;
+	margin:0px;
+	padding:0px;
+}
+ul{
+	list-style:none;
 }
 a{
-	text-decoration: none;
-
+	text-decoration:none;
+}
+section{
+	width:100%;
+	height:90vh;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position: relative;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height:60px;
+	background-color:#ffffff;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	padding:0px 5%;
+	
+}
+nav ul{
+	display: flex;
+}
+.toggle{
+	display: none;
+}
+ 
+nav ul li a{
+	margin:30px;
+	font-family:myriad pro regular;
+	color:#505050;
+	font-size: 15px;
+	font-weight:700;
+}
+.logo{
+	font-family:RoadTest;
+	color:#000000;
+	font-size: 22px;
+}
+.active{
+	color:#2d2a2a;
+	font-weight:bold;
 }
 .container{
-	min-height: 100vh;
+	min-height: 90vh;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
-
+table {
+	text-shadow: center;
+}
 /*------My section--------*/
 
+.model{
+	height:530px;
+	position:absolute;
+	bottom:40px;
+	left:75%;
+	transform: translateX(-75%);
+	
+	
+}
+
 #my {
-	background-image: url(https://github.com/Lokesh-Rai-IIIT-Kottayam/Portfolio/blob/master/img/DSC0048.jpg);
+	
 	background-size: cover;
 	background-position: top center;
-	position: relative;
+	position: center;
 	z-index: 0;
 }
 #my::after {
 	content: '';
-	position: absolute;
+	position: center;
 	left: 0;
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: black;
+	
 	opacity: .7;
 	z-index: -1;
 }
@@ -108,6 +166,7 @@ a{
 }
 
 /*------End of My section-------*/
+/*---About Section------*/
 
 /*--Keyframes--*/
 
@@ -124,7 +183,58 @@ a{
 
 @keyframes text_reveal {
 	100% {
-		color: white;
+		color: black;
 	}
 }
+@keyframes fadeOut {
+	0% {
+	  opacity:1;
+	}
+	100% {
+	  opacity:0;
+	}
+}
+  
+@keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  @-moz-keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  @-webkit-keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  @-o-keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  @-ms-keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+  }
 /*--Keyframes--*/
