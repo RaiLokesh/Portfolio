@@ -42,7 +42,8 @@ nav ul{
 .toggle{
 	display: none;
 }
- 
+
+
 nav ul li a{
 	margin:30px;
 	font-family:myriad pro regular;
@@ -272,10 +273,12 @@ table {
 }
 @media only screen and (max-width:768px){
 	h1{font-size: 180%;}
-	.main-nav{display: none;}
+
+}
+
 .mobile-icon{
 	display: inline-block;
-	color:#fff;
+	color:black;
 	float: none;
 	margin-top: 30px;
 	margin-right: 20px;
@@ -313,5 +316,5 @@ table {
 	100% {
 	  opacity:1;
   }
-  
+}
 /*--Keyframes--*/
