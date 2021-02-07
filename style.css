@@ -57,7 +57,8 @@ nav ul li a{
 	font-size: 22px;
 }
 .active{
-	color:#2d2a2a;
+	color:black;
+	border-bottom: 2px solid crimson;
 	font-weight:bold;
 }
 .container{
