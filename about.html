@@ -7,9 +7,59 @@
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Flamenco&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+		.about-container{
+			width:80%;
+			height: 500px;
+			top: 200px;
+			background:white;
+			border-radius:20px;
+			box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+			display: flex;
+			margin: -7%  auto 20px auto;
+			position: relative;
+			justify-content:space-evenly;
+			align-items: center;
+		}
+		.about-container img{
+			height:250px;
+		}
+		.about-text{
+			width:500px;
+		} 
+		.about-text p:nth-child(1){
+			color:black;
+			font-family: 'Cabin', sans-serif;
+			font-weight:bold;
+			font-size:30px;
+			line-height:1px;
+		}
+		.about-text p:nth-child(2){
+			color:#3e3d3d;
+			font-size:13px;
+			font-family: 'Cabin', sans-serif;
+			font-weight:bold;
+			line-height:5px;
+			
+		}
+		.about-text p{
+			color:#7e7d7d;
+			font-family:'Cabin', sans-serif;
+			font-size:16px;
+		}
+		.icon-bar{
+			width:120px;
+			height: unset;
+			color:#ffffff;
+			outline:none;
+			border:none;
+			font-family: calibri;
+			background-color:#262525;
+		}
+	</style>
 	
 	<title>About Lokesh</title>
 </head>
@@ -34,4 +84,27 @@
 		
 		</nav>
 		</div>
+	
+	
+		<div class="about-container">
+			<!--img-->
+				<img src="img/abt.png"/>
+			<!--about-me-text-->
+				<div class="about-text">
+				<p>About Me</p>
+				<br><br>
+				<p>Technology Geek</p>
+				<br>
+				<p>Hello, My name is Lokesh Rai. I am a Devolper and I'm intrested in Machine Learning and Data Science. If you have some idea for any project please do conatact me. I would love to work with you.</p>
+				<br>
+				<p>You can reach me via the given ways.</p>
+				<br><br>
+				<div class="icon-bar">
+					<a href="https://twitter.com/RhetoricianSays" class="twitter"><i class="fa fa-twitter"></i></a>
+					<a href="https://www.linkedin.com/in/lokesh-rai-60a324199/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+					<a href="https://github.com/Lokesh-Rai-IIIT-Kottayam" class="github"><i class="fa fa-github"></i></a>
+				  </div>
+				</div>
+			</div>	
+		</section>
 </body>
