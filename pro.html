@@ -12,6 +12,60 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 	<title>Lokesh's Projects</title>
+	<style>
+		.prj-container{
+			width:80%;
+			height: 500px;
+			top: 30%;
+			background:white;
+			border-radius:20px;
+			box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+			display: flex;
+			margin: -7%  auto 20px auto;
+			position: relative;
+			justify-content:space-evenly;
+			align-items: center;
+		}
+		.prj-container img{
+			height:250px;
+		}
+		.prj-text{
+			width:500px;
+		} 
+		.prj-text p:nth-child(1){
+			color:black;
+			font-family: 'Cabin', sans-serif;
+			font-weight:bold;
+			font-size:30px;
+			line-height:1px;
+		}
+		.prj-text p:nth-child(2){
+			color:#3e3d3d;
+			
+			font-family: 'Cabin', sans-serif;
+			font-weight:bold;
+			
+			
+		}
+		.prj-text p{
+			color:#7e7d7d;
+			font-family:'Cabin', sans-serif;
+			font-size:16px;
+		}
+		.prj-text button{
+			width:120px;
+			height: 40px;
+			color:#ffffff;
+			outline:none;
+			border:none;
+			font-family: calibri;
+			background-color:#262525;
+		}
+    	
+}
+		
+		
+	</style>
 </head>
 <body>
     <section>
@@ -29,9 +83,41 @@
 		<li><a href="intern.html">Internships</a></li>
 		<li><a href="achieve.html">Achievements</a></li>
 		</ul>
-		
-		
-		
 		</nav>
 		</div>
+		<div class="prj-container">
+			<!--img-->
+				<img src="img/pong.jpg"/>
+			<!--about-me-text-->
+				<div class="prj-text">
+				<p>Pong Game</p>
+				<br><br>
+				<p>Socket Programming</p>
+				<br><br>
+				<p>I made this game while learning socket programming in Python. Here any two clients can join through a server to play the Pong Game. The screenshot shows two clients connected to the port where server was running in order to play the game.</p>
+				<br>
+				<p>Click on the following button to access the source code.</p>
+				<br><br>
+				<center><button onclick="location.href='https://github.com/Lokesh-Rai-IIIT-Kottayam/Pong-Game'" type="button">Get Code</button></center>
+				</div>
+			
+		</section>
+		<section>
+			
+			<div class="prj-container">
+				<!--img-->
+					<img/>
+				<!--project-text-->
+					<div class="prj-text">
+					<p>More Coming Soon...</p>
+					<br><br>
+					<p>  </p>
+					<br>
+					<p>   </p>
+					<br>
+					<p>   </p>
+					
+					</div>
+				
+			</section>
 </body>
